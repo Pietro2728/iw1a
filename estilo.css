@@ -1,25 +1,54 @@
 body, html{
-    background-color: blue;
+    background-color: #FF6500;
 }
 
 div{
-    border: 5px solid #00ff00
+    border: 5px solid #00ff00;
 }
+
 p{
-    border: 5px solid #789478
+    border: 5px solid #00ff00;
 }
+
 h1{
-    border: 5px solid #d82a95
+    border: 5px solid #00ff00;
 }
+
 .card{
-    background-color: aqua;
-    width: 250px;
-    border:5px solid #00f;
+    background-color: #FFFFFF;
+    width:250px;
+    border:5px solid #0000ff;
 }
 .card-imagem{
-    margin-top: 25px;
+    margin-top:25px;
     margin-left: 30px;
     margin-right: 10px;
     margin-bottom: 100px;
-    border: 3px double #FFFF00;
+    border:3px double #FFFF00;
+}
+.card-botao{
+    width: 100%; /* Largura do elemento */
+    height: 50px; /* Altura do elemento */
+    padding: 20px 0; /*Espaçamento interno */
+    background-color: #af4a07; /* Cor de fundo */
+    color: #FFFFFF; /* Cor do texto */
+    font-family: Arial; /* Tipo de fonte*/
+    font-weight: bold;  /* PEso da fonte negrito */
+}
+.card-descricao{
+    font-family: arial; /* Tipo da fonte */
+    font-weight: bold; /* Negrito */
+    font-size: 18px;
+    margin-top:10; /* Margin acima */
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+.card-preco{
+    font-family: Impact;
+    font-size: 25px;
+    color: #FF6500;
+    margin-bottom: 45px;
+    padding-left: 10%;
 }
